@@ -2,7 +2,7 @@
 
 This repository contains a complete Student Management System implemented in the C programming language. The program uses file handling to store and manage student records and includes a secure login system with role-based access control.
 
-🔐 Login System
+# 🔐 Login System
 
 The system authenticates users from a credentials file (credentials.txt).
 Each user has:
@@ -21,7 +21,7 @@ Case-insensitive username matching
 
 Automatic logout and exit after failed attempts
 
-👤 User Roles & Permissions
+# 👤 User Roles & Permissions
 Admin
 
 ✔ Add Student
@@ -46,7 +46,7 @@ Guest
 ✘ Cannot add/update/delete
 ✔ Logout
 
-📚 Student Data Handling
+# 📚 Student Data Handling
 
 Student records are stored in students.txt using the format:
 
@@ -61,7 +61,7 @@ struct Student {
     float marks;
 };
 
-✨ Features Included
+# ✨ Features Included
 1. Add Student (Admin Only)
 
 Validates roll number
@@ -96,7 +96,7 @@ Deletes a record matching a roll number
 
 Safely rewrites file
 
-🧹 Input Validation
+# 🧹 Input Validation
 
 The program includes:
 
@@ -108,12 +108,12 @@ Case-insensitive comparison for name search
 
 Sanitized string input using fgets()
 
-🏗 File Structure
+# 🏗 File Structure
 students.txt        → stores student details
 credentials.txt     → stores login credentials
 main.c              → core program logic
 
-🚀 How It Works
+# 🚀 How It Works
 
 Program starts → displays welcome screen
 
